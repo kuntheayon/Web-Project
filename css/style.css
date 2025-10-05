@@ -42,6 +42,7 @@ section {
     background: none;
     font-size: 1.7rem;
     padding: 1rem 3rem;
+    border-radius: 8px;
 }
 
 .btn:hover {
@@ -142,6 +143,7 @@ section {
     -webkit-transform: translateY(-110%);
     transform: translateY(-110%);
 }
+
 
 .search-form.active {
     -webkit-transform: translateY(0%);
@@ -261,7 +263,7 @@ section {
 .swiper-button-next::after,
 .swiper-button-prev::after {
     font-size: 3rem;
-    color: #10221b;
+    color: #1f2623;
 }
 
 .category .box-container {
@@ -270,6 +272,7 @@ section {
     -ms-grid-columns: (minmax(29rem, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
     gap: 1.5rem;
+   
 }
 
 .category .box-container .box {
@@ -319,8 +322,8 @@ section {
 
 .about .image img {
     width: 100%;
-    -webkit-box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+    
+   
 }
 
 .about .content {
@@ -342,12 +345,14 @@ section {
 }
 
 .shop .slide {
-    border: 0.2rem solid #10221b;
+    border: 0.2rem solid #424a47;
+    border-radius: 8px;
 }
 
 .shop .slide:hover .image .icons {
     -webkit-transform: translateY(0);
     transform: translateY(0);
+    
 }
 
 .shop .slide .image {
@@ -355,6 +360,7 @@ section {
     overflow: hidden;
     height: 30rem;
     width: 100%;
+   
 }
 
 .shop .slide .image img {
@@ -362,6 +368,7 @@ section {
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .shop .slide .image .icons {
@@ -392,11 +399,14 @@ section {
 .shop .slide .content {
     padding: 1rem 0;
     text-align: center;
+   
 }
+
 
 .shop .slide .content h3 {
     font-size: 2rem;
     color: #10221b;
+   
 }
 
 .shop .slide .content .price {
@@ -404,6 +414,7 @@ section {
     padding-top: .5rem;
     font-size: 2rem;
     color: #219150;
+    
 }
 
 .shop .slide .content .stars i {
@@ -501,19 +512,16 @@ section {
 .services .box-container .box {
     text-align: center;
     padding: 2rem;
-    border: 0.2rem solid #10221b;
-    border-radius: .5rem;
+    border: 2px solid #343d3a;
+    border-radius: .10rem;
     background: #fff;
+    border-radius: 8px;
 }
 
 .services .box-container .box:hover {
-    background: #10221b;
+    background: #161817;
 }
 
-.services .box-container .box:hover img {
-    -webkit-filter: invert(1);
-    filter: invert(1);
-}
 
 .services .box-container .box:hover p {
     color: #fff;
@@ -532,6 +540,7 @@ section {
 .services .box-container .box img {
     height: 10rem;
     margin-bottom: 1rem;
+    border-radius: 6px;
 }
 
 .services .box-container .box h3 {
@@ -611,12 +620,13 @@ section {
 }
 
 .blogs .slide .icons {
-    background: #10221b;
+    background: #19183B;
     border-radius: .10rem;
     padding: 1rem;
     position: relative;
     top: -2rem;
     display: inline-block;
+    border-radius: 8px;
 }
 
 .blogs .slide .icons a {
